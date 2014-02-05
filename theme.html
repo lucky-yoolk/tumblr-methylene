@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- METHYLEN THEME V1.1 BY DRSLASH -->
+<!-- METHYLEN THEME V1.2 BY DRSLASH -->
 <!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
@@ -141,10 +141,17 @@
             .text, .quote, .link, .chat, .audio {
                 background-color:{color:Post Background};
             }
+            
+            .with .text, .with .quote, .with .link, .with .chat, .with .audio {
+                background-color:transparent !important;
+            }
             .text-post-index-inner {
                 margin:10px 10px 0;
                 color:{color:Bottom Bar Text};
                 border-bottom:3px solid {color:Variant};
+            }
+            .with .text-post-index-inner {
+                margin:0 !important;
             }
             .text-post-perma-inner {
                 margin:0;
